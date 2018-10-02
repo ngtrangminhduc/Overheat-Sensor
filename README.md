@@ -2,9 +2,9 @@
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Overheat Sensor Specifications](#student-sense-hat-specifications)
-3. [Overheat Sensor Design Files](#student-sense-hat-electronic-design-files)
-4. [Overheat Sensor Assembly](#student-sense-hat-assembly)
+2. [Overheat Sensor Specifications](#overheat-sensor-specifications)
+3. [Overheat Sensor Design Files](#overheat-sensor-electronic-design-files)
+4. [Overheat Sensor Assembly](#overheat-sensor-assembly)
 5. [Student Raspberry Pi Image Creation and Test Code](#student-raspberry-pi-image-creation-and-test-code)
 6. [Enterprise Wi-Fi](#enterprise-wi-fi)
 
