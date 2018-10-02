@@ -1,10 +1,10 @@
-# An interface board for the Broadcom development platform also known as the Raspberry Pi
+# An Overheat Sensor with Raspberry Pi and HDC1008 sensor
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Student Sense Hat Specifications](#student-sense-hat-specifications)
-3. [Student Sense Hat Electronic Design Files](#student-sense-hat-electronic-design-files)
-4. [Student Sense Hat Assembly](#student-sense-hat-assembly)
+2. [Overheat Sensor Specifications](#student-sense-hat-specifications)
+3. [Overheat Sensor Design Files](#student-sense-hat-electronic-design-files)
+4. [Overheat Sensor Assembly](#student-sense-hat-assembly)
 5. [Student Raspberry Pi Image Creation and Test Code](#student-raspberry-pi-image-creation-and-test-code)
 6. [Enterprise Wi-Fi](#enterprise-wi-fi)
 
@@ -20,7 +20,7 @@ board, a Real Time Clock module, and an integrated environmental sensor module c
 week of effort to complete these build instructions directed towards technologically inclined students especially given other
 commitments. Be aware that the image creation steps take at least 3 hours alone.
 
-### Student Sense Hat Specifications
+### Overheat Sensor Specifications
 
 NOTE: This mostly through hole design is pin compatible with original mostly surface mount sense hat design which is on the devices in the Humber Parts Crib. The Fall 2017 design is in [Fritzing](https://github.com/six0four/StudentSenseHat/blob/master/electronics/StudentSenseHatV06.fzz) while the Fall 2016 design was in [Eagle](https://github.com/vladporcila/ModularSenseHatStripped), if curious, take a look at using the [Sparkfun Cam file](https://learn.sparkfun.com/tutorials/using-eagle-board-layout/generating-gerbers). Once you have recieved your PCB the kit looks something like the following photo.
 
@@ -57,7 +57,7 @@ The more interesting components consist of:
 
 ![Image of Crib Pi](https://raw.githubusercontent.com/six0four/StudentSenseHat/master/images/cribpionly.jpg)
 
-### Student Sense Hat Electronic Design Files
+### Overheat Sensor Electronic Design Files
 
 1.  The Fritzing file is available here: https://github.com/six0four/StudentSenseHat/tree/master/electronics/StudentSenseHatV06.fzz
 2.  It has a breadboard view:
@@ -73,7 +73,7 @@ This work is a derivative of "http://fritzing.org/parts/" by [Fritzing](http://f
 6.  A Bill Of Materials can be exported: [BOM](https://github.com/six0four/StudentSenseHat/blob/master/electronics/StudentSenseHatV05_bom.xlsx).
 7.  As well as Gerber files: [RS-274X](https://github.com/six0four/StudentSenseHat/blob/master/electronics/Gerber_RS-274X).
 
-### Student Sense Hat Assembly
+### Overheat Sensor Assembly
 
 1. Please get started by ensuring that you have reviewed the [six 15 second soldering videos](https://radiojove.gsfc.nasa.gov/telescope/soldering.htm) and can comment on them. (If you are into materials, look up tin pest and tin whiskers.)
 2. Work through as much of this set of instructions as possible. (Feel free to drop through the Humber College Institute of Technology & Advanced Learning North Campus Prototype Lab in J233 for additional guidance both before and after class.)
