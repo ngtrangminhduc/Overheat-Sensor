@@ -1,3 +1,7 @@
+October 16, 2018: Showed acquisitions to Kristian, finished XML diagram
+
+October 12, 2018: Discussing the Pseudo Code with partner
+
 October 2, 2018: Talked to partner in Pseudo Code Assignment + Summarizing all receipts (Can be seen at 2018 Documentation --> Proof of Purchases)
 
 September 29, 2018 : All acquisitions delivered
