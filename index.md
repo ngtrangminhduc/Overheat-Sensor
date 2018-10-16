@@ -1,4 +1,4 @@
-October 16, 2018: Showed acquisitions to Kristian, finished XML diagram
+October 16, 2018: Showed acquisitions to Kristian, finished UML diagram
 
 October 12, 2018: Discussing the Pseudo Code with partner
 
