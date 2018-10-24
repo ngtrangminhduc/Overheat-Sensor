@@ -1,4 +1,6 @@
-October 23, 2018: Demonstrated my sensor to Kristian. The code worked, but the address was not the desired one. After researching, I know how to change the address from 0x40 to 0x42 through Adafruit, by using pinout A0 and A1 (https://learn.adafruit.com/adafruit-hdc1008-temperature-and-humidity-sensor-breakout/pinouts). However, since Adafruit has discontinued this product, I had to buy the ones without those pinouts.
+October 23, 2018: Demonstrated my sensor to Kristian. The code worked, but the address was not the desired one. After researching, I know how to change the address from 0x40 to 0x42 through Adafruit, by using pinout A0 and A1 (https://learn.adafruit.com/adafruit-hdc1008-temperature-and-humidity-sensor-breakout/pinouts). However, since Adafruit has discontinued this product, I had to buy the ones without those pinouts.I tried changing the code and even used 3rd party programs, but none worked.
+The sensor is working perfectly fine under 0x40
+![alt text](https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/tree/master/2018_Images/Python Code.png)
 
 
 October 21, 2018: Finished the Python code.
