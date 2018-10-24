@@ -1,4 +1,5 @@
-October 23, 2018: Demonstrated my sensor to Kristian. The code worked, but the address was not the desired one.
+October 23, 2018: Demonstrated my sensor to Kristian. The code worked, but the address was not the desired one. After researching, I know how to change the address from 0x40 to 0x42 through Adafruit, by using pinout A0 and A1 (https://learn.adafruit.com/adafruit-hdc1008-temperature-and-humidity-sensor-breakout/pinouts). However, since Adafruit has discontinued this product, I had to buy the ones without those pinouts.
+
 
 October 21, 2018: Finished the Python code.
 
@@ -6,7 +7,7 @@ October 20, 2018: Started writing the code for the sensor. I tried both Python a
 
 October 18, 2018: Started the Raspberry Pi Installation. For me the NOOBS didn't work, but flashing the Raspbian ISO file into the SD card worked.
 
-October 16, 2018: Showed acquisitions to Kristian, finished UML diagram 
+October 16, 2018: Showed acquisitions to Kristian, finished UML diagram and soldering
 
 October 12, 2018: Discussing the Pseudo Code with partner
 
