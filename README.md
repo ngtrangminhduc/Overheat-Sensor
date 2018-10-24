@@ -1,4 +1,4 @@
-# An Overheat Sensor with Raspberry Pi and HDC1008 sensor
+# An Overheat Sensor with Raspberry Pi and HDC1008 sensor (In the making)
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -24,53 +24,11 @@
 
 
 ### Overheat Sensor Assembly
-
+![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Images/IMG_8704.JPG)
+![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Images/IMG_8708.JPG)
 ### Student Raspberry Pi Image Creation and Test Code
 
-1.	Building the Humber image for the Sense Hat: [https://github.com/six0four/StudentSenseHat/blob/master/cribpisdcard.md](https://github.com/six0four/StudentSenseHat/blob/master/cribpisdcard.md)  
-	Note that apt-get puts the installed packages into
-    /var/cache/apt/archives/ so a zip of the files from there would
-    complement the script used by these instructions.
-
-5.  Open a terminal and type:
-	```
-	git clone https://github.com/six0four/StudentSenseHat.git
-	cd StudentSenseHat/firmware
-	gcc -Wall -o traffic2B traffic2B.c -lwiringPi
-	sudo ./traffic2B
-	```
-	write to your blog what happens with your LED.
-	
-6.	From the Start Menu->Preferences->Raspberry Pi Configuration->Interfaces set I2C to Enabled.
-
-7.	Return to your terminal and type:
-    ```Shell
-	make
-	sudo ./ghmain
-	```
-	write to your blog what happens.
-
-8.	You can read the OS date with:
-    ```Shell
-	date
-	```
-	You can set the OS date with:
-	```Shell
-	sudo date –s “29 AUG 1997 13:00:00”
-	```
-	You can write the OS date to the RTC with:
-	```Shell
-	sudo hwclock –w
-	```
-	You can read the RTC date with:
-	```Shell
-	sudo hwclock -r
-	```
-	
-9.	Things to consider for your particular application: boot options (Gui to terminal), and permissions when auto mounting usb keys.
-	
-10.  Use <http://sourceforge.net/projects/win32diskimager/> to read the image
-    into a file.
+![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Images/PythonCode.png)
 
 ### Enterprise Wi-Fi
 
