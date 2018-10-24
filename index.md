@@ -1,4 +1,4 @@
-October 23, 2018: Demonstrated my sensor to Kristian. The code worked, but the address was not the desire one.
+October 23, 2018: Demonstrated my sensor to Kristian. The code worked, but the address was not the desired one.
 
 October 21, 2018: Finished the Python code.
 
