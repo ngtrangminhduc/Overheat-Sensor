@@ -22,12 +22,6 @@
 
 ### Overheat Sensor Electronic Design Files
 
-1.  The Fritzing file is available here: <TBD>
-2.  It has a breadboard view:
-3.  It has a schematic view:
-4.  It has a PCB view:
-6.  A Bill Of Materials can be exported: [BOM]
-7.  As well as Gerber files: [RS-274X](https://github.com/six0four/StudentSenseHat/blob/master/electronics/Gerber_RS-274X).
 
 ### Overheat Sensor Assembly
 
