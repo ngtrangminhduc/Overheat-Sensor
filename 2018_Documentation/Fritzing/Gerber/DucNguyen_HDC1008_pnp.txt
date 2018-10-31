@@ -1,0 +1,30 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=DucNguyen_HDC1008
+*Date=21:01:49
+*CreatedBy=Fritzing 0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;;;67.1277;-23.1703;0;Bottom;Via9
+2;;molex-1x4_lock;70.9377;-10.3433;180;Bottom;Screen
+3;;;13.7877;-40.9503;0;Bottom;Via4
+4;;;42.8295;-27.4994;0;Bottom;HDC1008
+5;;;67.1277;-38.4103;0;Bottom;Via8
+6;;molex-1x4_lock;29.1547;-37.1403;90;Bottom;Sensor
+7;;;11.2477;-38.4103;0;Bottom;Via3
+8;;;69.6677;-23.1703;0;Bottom;Via12
+9;;;72.2077;-23.1703;0;Bottom;Via11
+10;;;69.6677;-40.9503;0;Bottom;Via7
+11;;;72.2077;-35.8703;0;Bottom;Via6
+12;;;74.7477;-33.3303;0;Bottom;Via5
+13;;;8.70768;-35.8703;0;Bottom;Via1
+14;;;74.7477;-23.1703;0;Bottom;Via10
+15;;;18.8677;-33.3303;0;Bottom;Via2
