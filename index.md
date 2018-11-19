@@ -7,6 +7,7 @@
 ![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Images/2x20Pins.jpeg)
 
 After soldering
+
 ![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Images/PCB_1.jpg)
 ![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Images/PCB_2.jpg)
 
