@@ -1,6 +1,6 @@
 **November 14, 2018**: Demonstrated running code to professor in class. I also updated the budget. Over the weekend, I will edit the whole repository. 
 #Progress Report: The project has meet its requirement, functionality and budget-wise. I'm still trying to implement the screen to show the result from the sensor, as it requires more work than it seems.
-![alt text](https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Images/PythonCode2.png)
+![alt text](https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master/2018_Images/PythonCode2.png)
 
 **November 6, 2018**: Finished Soldering the essential parts. A LED I2C screen can still be implemented on the PCB, but I'm still testing it as it's not fully functional yet. I accidentally bought a 6-header stackable pin instead of 4, so the professor helped me turn it into a 4-header one.
 ![alt text](https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master/2018_Images/6PinsStackableHeader.jpg)
@@ -8,8 +8,8 @@
 
 After soldering
 
-![alt text](https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Images/PCB_1.jpg)
-![alt text](https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Images/PCB_2.jpg)
+![alt text](https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master/2018_Images/PCB_1.jpg)
+![alt text](https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master/2018_Images/PCB_2.jpg)
 
 **October 30, 2018**: Finished desigining my PCB and emailed it to Prototype Lab. The file can be found in 2018_Documentation --> Fritzing
 ![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Documentation/Fritzing/DucNguyen_HDC1008_pcb.png)
