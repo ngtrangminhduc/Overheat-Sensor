@@ -1,4 +1,5 @@
 **November 14, 2018**: Demonstrated running code to professor in class. I also updated the budget. Over the weekend, I will edit the whole repository. 
+
 #Progress Report: The project has meet its requirement, functionality and budget-wise. I'm still trying to implement the screen to show the result from the sensor, as it requires more work than it seems.
 ![alt text](https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master/2018_Images/PythonCode2.png)
 
@@ -18,8 +19,8 @@ After soldering
 
 The sensor is working perfectly fine under 0x40.
 The screen is not needed, as data can be shown on the monitor
-![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Images/IMG_8826.JPG)
-![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Images/PythonCode.png)
+![alt text](https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master/2018_Images/IMG_8826.JPG)
+![alt text](https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master/2018_Images/PythonCode.png)
 
 
 **October 21, 2018**: Finished the Python code.
@@ -29,8 +30,8 @@ The screen is not needed, as data can be shown on the monitor
 **October 18, 2018**: Started the Raspberry Pi Installation. For me the NOOBS didn't work, but flashing the Raspbian ISO file into the SD card worked.
 
 **October 16, 2018**: Showed acquisitions to Kristian, finished UML diagram and soldering
-![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Images/IMG_8704.JPG)
-![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Images/IMG_8708.JPG)
+![alt text](https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master/2018_Images/IMG_8704.JPG)
+![alt text](https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master/2018_Images/IMG_8708.JPG)
 
 **October 12, 2018**: Discussing the Pseudo Code with partner
 
