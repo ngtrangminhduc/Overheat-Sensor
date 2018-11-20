@@ -3,8 +3,8 @@
 ![alt text](https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Images/PythonCode2.png)
 
 **November 6, 2018**: Finished Soldering the essential parts. A LED I2C screen can still be implemented on the PCB, but I'm still testing it as it's not fully functional yet. I accidentally bought a 6-header stackable pin instead of 4, so the professor helped me turn it into a 4-header one.
-![alt text](https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Images/6PinsStackableHeader.jpg)
-![alt text](https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Images/2x20Pins.jpeg)
+![alt text](https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master/2018_Images/6PinsStackableHeader.jpg)
+![alt text](https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master/2018_Images/2x20Pins.jpeg)
 
 After soldering
 
