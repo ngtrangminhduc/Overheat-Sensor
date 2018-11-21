@@ -1,7 +1,7 @@
 **November 20, 2018**: Finished designing and laser printing the Raspberry Pi Case. I will drill the screws tomorrow.
 
 ![alt text](https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master/2018_Images/RaspberryPiCase.jpg)
-![alt text](https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master/2018_Images/Raspberry Pi and Case.jpg)
+![alt text](https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master/2018_Images/Raspberry%Pi%and%Case.jpg)
 
 **November 14, 2018**: Demonstrated running code to professor in class. I also updated the budget. 
 
