@@ -1,4 +1,5 @@
 **November 20, 2018**: Finished designing and laser printing the Raspberry Pi Case. I will drill the screws tomorrow. The CorelDraw design can be found <a href="https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master/2018_Documentation/Pi%20Case%20-%20Overheat%20Sensor.cdr">here</a>
+
 ![alt text](https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master/2018_Images/RaspberryPiCase.jpg)
 ![alt text](https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master/2018_Images/RaspberryPiandCase.jpg)
 
