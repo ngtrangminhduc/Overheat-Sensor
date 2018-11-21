@@ -1,6 +1,12 @@
-**November 14, 2018**: Demonstrated running code to professor in class. I also updated the budget. Over the weekend, I will edit the whole repository. 
+**November 20, 2018**: Finished designing and laser printing the Raspberry Pi Case. I will drill the screws tomorrow.
+
+![alt text](https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master/2018_Images/RaspberryPiCase.jpg)
+![alt text](https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master/2018_Images/Raspberry Pi and Case.jpg)
+
+**November 14, 2018**: Demonstrated running code to professor in class. I also updated the budget. 
 
 #Progress Report: The project has meet its requirement, functionality and budget-wise. I'm still trying to implement the screen to show the result from the sensor, as it requires more work than it seems.
+
 ![alt text](https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master/2018_Images/PythonCode2.png)
 
 **November 6, 2018**: Finished Soldering the essential parts. A LED I2C screen can still be implemented on the PCB, but I'm still testing it as it's not fully functional yet. I accidentally bought a 6-header stackable pin instead of 4, so the professor helped me turn it into a 4-header one.
