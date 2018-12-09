@@ -98,7 +98,14 @@ The file should be emailed to the Prototype Lab (prototypelab@humber.ca). The ca
 
 ### V. Overheat Sensor Power Up and Testing
 
-![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Images/PythonCode.png)
+This is the first power up time of the Overheat Sensor. Connections are properly made by looking at the pinout of the Raspberry Pi
+
+![alt text](https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master/2018_Images/IMG_8826.JPG)
+
+This is the output. Temperature and Humidity are shown every 0.5s. The sensor works fine under 0x40. It can work under 0x41 or 0x42 as well if it is **manufactured by Adafruit**. The souce code can be found <a href="https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master//2018_SourceCode/hdc1008.py">here</a>
+
+![alt text](https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master/2018_Images/PythonCode2.png)
+
 
 ### VI. Image Creation and Enterprise Wi-Fi
 
