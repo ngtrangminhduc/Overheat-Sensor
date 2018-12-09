@@ -14,7 +14,7 @@ V. [Overheat Sensor Power Up + Testing](#overheat-sensor-power-up-and-testing)
 
 VI. [Image Creation and Enterprise Wifi](#image-creation-and-enterprise-wi-fi)
 
-======
+==============================================================================
 
 ### I. Introduction
 
