@@ -2,17 +2,17 @@
 
 ## Table of Contents
 
-I. [Introduction](#introduction)
+I. [Introduction](#Introduction)
 
-II. [Overheat Sensor Materials](#overheat-sensor-materials)
+II. [Overheat Sensor Materials](#Overheat-Sensor-Materials)
 
-III. [Overheat Sensor Schedule](#overheat-sensor-schedule)
+III. [Overheat Sensor Schedule](#Overheat-Sensor-Schedule)
 
-IV. [Overheat Sensor Assembly](#overheat-sensor-assembly)
+IV. [Overheat Sensor Assembly](#Overheat-Sensor-Assembly)
 
-V. [Overheat Sensor Power Up + Testing](#overheat-sensor-power-up-and-testing)
+V. [Overheat Sensor Power Up + Testing](#Overheat-Sensor-Power-Up-And-Testing)
 
-VI. [Image Creation and Enterprise Wifi](#image-creation-and-enterprise-wi-fi)
+VI. [Image Creation and Enterprise Wifi](#Image-Creation-And-Enterprise-Wi-Fi)
 
 
 ### I. Introduction
