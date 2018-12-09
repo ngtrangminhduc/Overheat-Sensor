@@ -14,11 +14,11 @@ V. [Overheat Sensor Power Up + Testing](#overheat-sensor-power-up-and-testing)
 
 VI. [Image Creation and Enterprise Wifi](#image-creation-and-enterprise-wi-fi)
 
-
+==============================================================================
 
 ### I. Introduction
 
-
+HDC1008 
 ### II. Overheat Sensor Materials
 	
 ###### Additional items that are only added to those devices in the Humber Parts Crib
