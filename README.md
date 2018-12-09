@@ -40,11 +40,16 @@ The components for this project are:
 - 2x20-pin header
 - I2C LED Screen (Optional)
 
-Total budget for this project is approximately 190$. More details can be found in the <a href="https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master/2018_Documentation/Proposal%2C%20Budget%2C%20Project%20Schedule/Budget.xlsx">budget</a>
+Total budget for this project is approximately 190$. More details can be found in the <a href="https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master/2018_Documentation/Proposal%2C%20Budget%2C%20Project%20Schedule/Budget.xlsx">budget</a>.
+
 The HDC1008 sensor should be ordered as soon as possible, as it may take up 2 weeks to 1 month due to its unpopularity
 
 ### III. Overheat Sensor Schedule
+Overall, if all materials are present, then it should not take more than 3 days to build a complete, functional product. Most of the time will be spent on installing the SD card and building the case for the Raspberry Pi, while the coding is rather simple.
 
+This is the schedule I followed for the whole semester
+
+![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Documentation/Proposal%2C%20Budget%2C%20Project%20Schedule/Project%20Schedule.jpg)
 
 ### IV. Overheat Sensor Assembly
 ![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Documentation/Fritzing/DucNguyen_HDC1008_pcb.png)
