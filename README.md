@@ -159,7 +159,7 @@ It will be more convenient to connect to the Raspberry Pi through Wi-Fi. This is
 	sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 	```
 
-
+    ```
 	# sample network configuration for Humber College myWi-Fi
 	# change text in <> to your account values (remove the < and > while doing this )
 	network={
