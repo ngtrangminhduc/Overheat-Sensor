@@ -2,7 +2,7 @@
 
 ## Table of Contents
 
-I. [Introduction](#%Introduction)
+I. [Introduction](#%I.%Introduction)
 
 II. [Overheat Sensor Materials](#Overheat%Sensor%Materials)
 
