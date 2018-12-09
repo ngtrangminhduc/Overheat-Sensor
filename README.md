@@ -1,40 +1,39 @@
 # An Overheat Sensor with Raspberry Pi and HDC1008 sensor 
 
 ## Table of Contents
-1. [Introduction](#introduction)
-2. [Overheat Sensor Materials](#overheat-sensor-materials)
-3. [Overheat Sensor Schedule](#overheat-sensor-schedule)
-4. [Overheat Sensor Assembly](#overheat-sensor-assembly)
-5. [Overheat Sensor Power Up + Testing](#overheat-sensor-power-up-and-testing)
-6. [Image Creation and Enterprise Wifi](#image-creation-and-enterprise-wi-fi)
+I. [Introduction](#introduction)
+II. [Overheat Sensor Materials](#overheat-sensor-materials)
+III. [Overheat Sensor Schedule](#overheat-sensor-schedule)
+IV. [Overheat Sensor Assembly](#overheat-sensor-assembly)
+V. [Overheat Sensor Power Up + Testing](#overheat-sensor-power-up-and-testing)
+VI. [Image Creation and Enterprise Wifi](#image-creation-and-enterprise-wi-fi)
 
 
 
-### Introduction
+### I. Introduction
 
 
-### Overheat Sensor Materials
+### II. Overheat Sensor Materials
 	
 ###### Additional items that are only added to those devices in the Humber Parts Crib
 
 
 
-### Overheat Sensor Electronic Schedule
+### III. Overheat Sensor Schedule
 
 
-### Overheat Sensor Assembly
+### IV. Overheat Sensor Assembly
 ![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Documentation/Fritzing/DucNguyen_HDC1008_pcb.png)
 ![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Images/IMG_8704.JPG)
 ![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Images/IMG_8708.JPG)
 ![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Images/PCB_1.jpg)
 ![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Images/PCB_2.jpg)
 
-### Overheat Sensor Power Up and Testing
-### Student Raspberry Pi Image Creation and Test Code
+### V. Overheat Sensor Power Up and Testing
 
 ![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Images/PythonCode.png)
 
-### Image Creation and Enterprise Wi-Fi
+### VI. Image Creation and Enterprise Wi-Fi
 
 Connecting to Enterprise Wi-Fi can be a challenge but the graphical desktop has come a long way from where it was, please share your respective successes in situations where the GUIs do not work - here is my configuration:
 
