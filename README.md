@@ -1,11 +1,17 @@
 # An Overheat Sensor with Raspberry Pi and HDC1008 sensor 
 
 ## Table of Contents
+
 I. [Introduction](#introduction)
+
 II. [Overheat Sensor Materials](#overheat-sensor-materials)
+
 III. [Overheat Sensor Schedule](#overheat-sensor-schedule)
+
 IV. [Overheat Sensor Assembly](#overheat-sensor-assembly)
+
 V. [Overheat Sensor Power Up + Testing](#overheat-sensor-power-up-and-testing)
+
 VI. [Image Creation and Enterprise Wifi](#image-creation-and-enterprise-wi-fi)
 
 
