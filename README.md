@@ -35,10 +35,20 @@ For convenient purposes, this documentation will focus mainly on the production 
 The components for this project are:
 - Raspberry Pi 3B+
 - HDC1008 Temperature & Humidity Sensor  
-- PCB 
+- PCB
+- I2C LED Screen (Optional)
+![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Images/IMG_8704.JPG)
+
 - 6-pin headers
 - 2x20-pin header
-- I2C LED Screen (Optional)
+
+![alt text](https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master/2018_Images/6PinsStackableHeader.jpg)
+![alt text](https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master/2018_Images/2x20Pins.jpeg)
+
+The softwares for this project are:
+- Remote Desktop Connection / VNC Viewer
+- Fritzing (for designing purposes) (can be freely used in the Lab)
+- CorelDraw (for designing purposes) (can be freely used in the Lab)
 
 Total budget for this project is approximately 190$. More details can be found in the <a href="https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master/2018_Documentation/Proposal%2C%20Budget%2C%20Project%20Schedule/Budget.xlsx">budget</a>.
 
@@ -52,15 +62,50 @@ This is the schedule I followed for the whole semester
 ![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Documentation/Proposal%2C%20Budget%2C%20Project%20Schedule/Project%20Schedule.jpg)
 
 ### IV. Overheat Sensor Assembly
+
+##### IV.1 Printed Circuit Board
+
+A PCB is required to connect the Sensor to the Raspberry Pi without using jumper wires and such. The design file of PCB can be found <a href="https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master/2018_Documentation/Fritzing/DucNguyen_HDC1008.zip">here</a>.
+This is the Breadboard view of the project:
+
+![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Documentation/Fritzing/DucNguyen_HDC1008_bb.jpg)
+
+The PCB View was designed, based on the Breadboard View by using Fritzing.
+
 ![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Documentation/Fritzing/DucNguyen_HDC1008_pcb.png)
-![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Images/IMG_8704.JPG)
+
+Soldering can be done in the Lab, which may take you 30mins to 2hours, depends on how comfortable you are in soldering:
+
 ![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Images/IMG_8708.JPG)
+
+This is the finished PCB
+
 ![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Images/PCB_1.jpg)
 ![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Images/PCB_2.jpg)
 
+##### IV.2 Raspberry Pi Case
+
+The design file of Raspberry Pi Case can be found in I drive --> DropBoxes --> mdrk0011 --> Pickup --> CENG317 --> Pi2CaseX7.cdr . The case should be redesigned based on the Pi's new size (when the PCB is attached) + its functionality. Kelly and Vlad in the Prototype Lab are very informative and helpful on assisting students with using CorelDraw.
+
+My design file can be found here  <a href="https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master//2018_Documentation/Pi%20Case%20-%20Overheat%20Sensor.cdr">here</a>. This is a picture of the design in CorelDraw 
+
+![alt text](https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master/2018_Images/RaspberryPiCase.jpg)
+
+The file should be emailed to the Prototype Lab (prototypelab@humber.ca). The case will be laser cut and completed in 1-2 days time. 
+
+![alt text](https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master/2018_Images/RaspberryPiandCase.jpg)
+
+
 ### V. Overheat Sensor Power Up and Testing
 
-![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Images/PythonCode.png)
+This is the first power up time of the Overheat Sensor. Connections are properly made by looking at the pinout of the Raspberry Pi
+
+![alt text](https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master/2018_Images/IMG_8826.JPG)
+
+This is the output. Temperature and Humidity are shown every 0.5s. The sensor works fine under 0x40. It can work under 0x41 or 0x42 as well if it is **manufactured by Adafruit**. The souce code can be found <a href="https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master//2018_SourceCode/hdc1008.py">here</a>
+
+![alt text](https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master/2018_Images/PythonCode2.png)
+
 
 ### VI. Image Creation and Enterprise Wi-Fi
 
