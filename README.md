@@ -14,11 +14,19 @@ V. [Overheat Sensor Power Up + Testing](#overheat-sensor-power-up-and-testing)
 
 VI. [Image Creation and Enterprise Wifi](#image-creation-and-enterprise-wi-fi)
 
-==============================================================================
 
 ### I. Introduction
 
-HDC1008 
+Raspberry Pi gets overheat easily when combined with other components, and can hardly be noticed if put inside cases. Internal hardware can be damaged if no immediate resolutions are taken.
+
+HDC1008 is a Temperature and Humidity sensor that can solve the problem. It8 has a wide range of temperature with +-0.2 Celsius degree, making it a very accurate sensor to detect any temperature change, and to ensure a spontaneous reaction from the users. Its low power consumption and two operation modes (sleep and measurement) allow itself to fit battery / power harvesting applications.
+
+The whole operation of the project can be demonstrated through this XML diagram
+![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Documentation/Pseudo%20Code%20and%20XML/UML%20Diagram.jpg)
+
+For convenient purposes, this documentation will focus mainly on the production of the sensor only. 
+
+ 
 ### II. Overheat Sensor Materials
 	
 ###### Additional items that are only added to those devices in the Humber Parts Crib
