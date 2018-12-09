@@ -5,9 +5,8 @@
 2. [Overheat Sensor Materials](#overheat-sensor-materials)
 3. [Overheat Sensor Schedule](#overheat-sensor-schedule)
 4. [Overheat Sensor Assembly](#overheat-sensor-assembly)
-5. [Overheat Sensor Power Up and Testing] (#overheat-sensor-power-up-and-testing)
-6. [Overheat Sensor Power Up + Testing](#overheat-sensor-power-up-and-testing)
-7. [Enterprise Wi-Fi](#enterprise-wi-fi)
+5. [Overheat Sensor Power Up + Testing](#overheat-sensor-power-up-and-testing)
+6. [Image Creation and Enterprise Wifi](#image-creation-and-enterprise-wi-fi)
 
 
 
@@ -35,7 +34,7 @@
 
 ![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Images/PythonCode.png)
 
-### Enterprise Wi-Fi
+### Image Creation and Enterprise Wi-Fi
 
 Connecting to Enterprise Wi-Fi can be a challenge but the graphical desktop has come a long way from where it was, please share your respective successes in situations where the GUIs do not work - here is my configuration:
 
