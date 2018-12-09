@@ -63,7 +63,7 @@ This is the schedule I followed for the whole semester
 
 ### IV. Overheat Sensor Assembly
 
-##### IV.1 Printed Circuit Board
+#### IV.1 Printed Circuit Board
 
 A PCB is required to connect the Sensor to the Raspberry Pi without using jumper wires and such. The design file of PCB can be found <a href="https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master/2018_Documentation/Fritzing/DucNguyen_HDC1008.zip">here</a>.
 This is the Breadboard view of the project:
@@ -83,7 +83,7 @@ This is the finished PCB
 ![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Images/PCB_1.jpg)
 ![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Images/PCB_2.jpg)
 
-##### IV.2 Raspberry Pi Case
+#### IV.2 Raspberry Pi Case
 
 The design file of Raspberry Pi Case can be found in I drive --> DropBoxes --> mdrk0011 --> Pickup --> CENG317 --> Pi2CaseX7.cdr . The case should be redesigned based on the Pi's new size (when the PCB is attached) + its functionality. Kelly and Vlad in the Prototype Lab are very informative and helpful on assisting students with using CorelDraw.
 
@@ -95,6 +95,9 @@ The file should be emailed to the Prototype Lab (prototypelab@humber.ca). The ca
 
 ![alt text](https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master/2018_Images/RaspberryPiandCase.jpg)
 
+This is the final product when everything's assembled together
+
+![alt text](https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master/2018_Images/RaspberryPiComplete.jpg)
 
 ### V. Overheat Sensor Power Up and Testing
 
@@ -104,12 +107,40 @@ This is the first power up time of the Overheat Sensor. Connections are properly
 
 This is the output. Temperature and Humidity are shown every 0.5s. The sensor works fine under 0x40. It can work under 0x41 or 0x42 as well if it is **manufactured by Adafruit**. The souce code can be found <a href="https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master//2018_SourceCode/hdc1008.py">here</a>
 
+![alt text](https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master/2018_Images/RaspberryPiInAction.jpg)
+
 ![alt text](https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master/2018_Images/PythonCode2.png)
 
 
 ### VI. Image Creation and Enterprise Wi-Fi
 
-Connecting to Enterprise Wi-Fi can be a challenge but the graphical desktop has come a long way from where it was, please share your respective successes in situations where the GUIs do not work - here is my configuration:
+#### VI.1 Image Creation
+
+1. Format an at least class 10 minimum of 8GB SD card with: https://www.sdcard.org/downloads/formatter_4/index.html With SD Card Formatter (https://www.sdcard.org/downloads/formatter_4/)
+
+2. Download, unzip, and copy the folder contents of http://downloads.raspberrypi.org/NOOBS/images/NOOBS-2017-08-17/NOOBS_v2_4_3.zip into the SD card
+
+3. Insert the SD Card into the Raspberry Pi. For first time usage, a HDMI cable and a separate screen is required. 
+
+**Note: The SD Card is now readable by only the Raspberry Pi. By re-inserting the SD card back into your PC, there's a high chance of corrupting the SD card and resulting in re-installation**
+
+4. Perform necessary update as instructed by the Pi.
+
+5. Open the terminal in the top left corner of the screen and input the following lines (this takes quite a long time):
+
+wget https://raw.githubusercontent.com/six0four/StudentSenseHat/master/firmware/hshcribv01.sh \  
+-O /home/pi/hshcribv01.sh  
+chmod u+x /home/pi/hshcribv01.sh  
+/home/pi/hshcribv01.sh
+
+**Note: If there's error running the code, you can download the script <a href="https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master//2018_SourceCode/hshcribv01.sh">here</a> and run it manually on your pi**
+
+6. Reboot
+
+
+#### VI.2 Enterprise Wi-Fi
+
+It will be more convenient to connect to the Raspberry Pi through Wi-Fi. This is the instruction for connection the Raspberry Pi to the Humber Wifi:
 
 1.  In /etc/network/interfaces:
 	```
@@ -123,54 +154,12 @@ Connecting to Enterprise Wi-Fi can be a challenge but the graphical desktop has 
 	```
 
 2.  In /etc/wpa_supplicant/wpa_supplicant.conf:
-	```
-	ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
-	update_config=1
-	network={
-        ssid="myWi-Fi@Humber"
-        proto=RSN
-        key_mgmt=WPA-EAP
-        pairwise=CCMP
-        auth_alg=OPEN
-        eap=PEAP
-        identity="n12345678"
-        password="aaaAAA12"
-        phase2="auth=MSCHAPV2"
-	}
-	```
 
-	I have been told that more recently the Prototype Lab staff have said to use:
-	```
+    ```
 	sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 	```
 
-	Add the follow to file and fill in identity and password field save and restart RPI:
-	```
-	network={
-	ssid="myWi-Fi@Humber"
-	priority=999
-	proto=RSN
-	key_mgmt=WPA-EAP
-	pairwise=CCMP
-	auth_alg=OPEN
-	eap=PEAP
-	identity="STUDENT ID"
-	password="PASSWORD"
-	phase1="peaplabel=0"
-	phase2="auth=MSCHAPV2"
-	}
-	```
-	Even more recently the Prototype Lab staff have successfully tested the 
-	following sample configuration file. The configuration includes sections 
-	for Humber’s myWi-fi, Eduroam, home WPA encrypted networks, and open networks like “Welcome To Humber”.:
-	```
-	# Sample configuration file for Raspberry Pi to connect to various WiFi networks.
-	# /etc/wpa_supplicant/wpa_supplicant.conf
-
-	ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
-	update_config=1
-	country=CA
-
+    ```
 	# sample network configuration for Humber College myWi-Fi
 	# change text in <> to your account values (remove the < and > while doing this )
 	network={
@@ -218,7 +207,9 @@ Connecting to Enterprise Wi-Fi can be a challenge but the graphical desktop has 
 		key_mgmt=NONE
 	}
 	```
-	
+
 3.  Download Humber Certificate (For HumberSecure).cer from https://its.humber.ca/wireless/humbersecure/
 
 4.  Reboot
+
+5. If you have trouble connecting the Pi through Ethernet Cable, it's best to use Advanced IP Scanner and search for the Pi's IP Address.
