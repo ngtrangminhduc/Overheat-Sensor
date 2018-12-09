@@ -6,7 +6,7 @@
 3. [Overheat Sensor Schedule](#overheat-sensor-schedule)
 4. [Overheat Sensor Assembly](#overheat-sensor-assembly)
 5. [Overheat Sensor Power Up and Testing] (#overheat-sensor-power-up-and-testing)
-6. [Student Raspberry Pi Image Creation and Test Code](#student-raspberry-pi-image-creation-and-test-code)
+6. [Overheat Sensor Power Up + Testing](#overheat-sensor-power-up-and-testing)
 7. [Enterprise Wi-Fi](#enterprise-wi-fi)
 
 
