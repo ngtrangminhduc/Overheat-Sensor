@@ -1,33 +1,36 @@
-# An Overheat Sensor with Raspberry Pi and HDC1008 sensor (In the making)
+# An Overheat Sensor with Raspberry Pi and HDC1008 sensor 
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Overheat Sensor Specifications](#overheat-sensor-specifications)
-3. [Overheat Sensor Design Files](#overheat-sensor-electronic-design-files)
+2. [Overheat Sensor Materials](#overheat-sensor-materials)
+3. [Overheat Sensor Schedule](#overheat-sensor-schedule)
 4. [Overheat Sensor Assembly](#overheat-sensor-assembly)
-5. [Student Raspberry Pi Image Creation and Test Code](#student-raspberry-pi-image-creation-and-test-code)
-6. [Enterprise Wi-Fi](#enterprise-wi-fi)
+5. [Ovrheat Sensor Power Up + Testing] (#overheat-sensor-power-up-and-testing)
+6. [Student Raspberry Pi Image Creation and Test Code](#student-raspberry-pi-image-creation-and-test-code)
+7. [Enterprise Wi-Fi](#enterprise-wi-fi)
 
 
 
 ### Introduction
 
 
-### Overheat Sensor Specifications
-
+### Overheat Sensor Materials
 	
 ###### Additional items that are only added to those devices in the Humber Parts Crib
 
 
 
-### Overheat Sensor Electronic Design Files
-![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Documentation/Fritzing/DucNguyen_HDC1008_pcb.png)
+### Overheat Sensor Electronic Schedule
+
 
 ### Overheat Sensor Assembly
+![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Documentation/Fritzing/DucNguyen_HDC1008_pcb.png)
 ![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Images/IMG_8704.JPG)
 ![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Images/IMG_8708.JPG)
 ![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Images/PCB_1.jpg)
 ![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Images/PCB_2.jpg)
+
+### Overheat Sensor Power Up and Testing
 ### Student Raspberry Pi Image Creation and Test Code
 
 ![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Images/PythonCode.png)
