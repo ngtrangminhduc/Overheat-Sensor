@@ -21,17 +21,27 @@ Raspberry Pi gets overheat easily when combined with other components, and can h
 
 HDC1008 is a Temperature and Humidity sensor that can solve the problem. It8 has a wide range of temperature with +-0.2 Celsius degree, making it a very accurate sensor to detect any temperature change, and to ensure a spontaneous reaction from the users. Its low power consumption and two operation modes (sleep and measurement) allow itself to fit battery / power harvesting applications.
 
-The whole operation of the project can be demonstrated through this XML diagram
+**Note**: This sensor is now classified as **Obsolete** in most of electronic websites, due to the coming of many new upgraded sensors
+
+The whole operation of the project can be demonstrated through this XML diagram: 
+
 ![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Documentation/Pseudo%20Code%20and%20XML/UML%20Diagram.jpg)
 
 For convenient purposes, this documentation will focus mainly on the production of the sensor only. 
 
  
 ### II. Overheat Sensor Materials
-	
-###### Additional items that are only added to those devices in the Humber Parts Crib
 
+The components for this project are:
+- Raspberry Pi 3B+
+- HDC1008 Temperature & Humidity Sensor  
+- PCB 
+- 6-pin headers
+- 2x20-pin header
+- I2C LED Screen (Optional)
 
+Total budget for this project is approximately 190$. More details can be found in the <a href="https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master/2018_Documentation/Proposal%2C%20Budget%2C%20Project%20Schedule/Budget.xlsx">budget</a>
+The HDC1008 sensor should be ordered as soon as possible, as it may take up 2 weeks to 1 month due to its unpopularity
 
 ### III. Overheat Sensor Schedule
 
