@@ -16,6 +16,8 @@ V. [Overheat Sensor Power Up and Testing](#v-overheat-sensor-power-up-and-testin
 
 VI. [Image Creation and Enterprise Wifi](#vi-image-creation-and-enterprise-wi-fi)
 
+VII. [Reproduction in Quantity](#vii-reproduction-in-quantity)
+
 
 ### I. Introduction
 
@@ -215,3 +217,11 @@ It will be more convenient to connect to the Raspberry Pi through Wi-Fi. This is
 4.  Reboot
 
 5. If you have trouble connecting the Pi through Ethernet Cable, it's best to use Advanced IP Scanner and search for the Pi's IP Address.
+
+### VII. Reproduction in Quantity 
+
+If this product is to be massively built, several tips can be considered:
+- It's better to use NOOBS and write it to multiple SD cards, as it takes less time than flashing with Etcher.
+- The source code doesn't need additional libraries, so it can be retrieved as soon as the Pi starts.
+- For financial purposes, it's better to order the sensors from China, as they are cheaper and no shipping cost is required (even though it would take nearly a month to arrive)
+
