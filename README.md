@@ -1,6 +1,6 @@
 # An Overheat Sensor with Raspberry Pi and HDC1008 sensor 
 
-![alt text](https://github.com/ngtrangminhduc/OverheatSensor/blob/master/2018_Images/PCB_1.jpg)
+![alt text](https://raw.githubusercontent.com/ngtrangminhduc/OverheatSensor/master/2018_Images/RaspberryPiandCase.jpg)
 
 ## Table of Contents
 
